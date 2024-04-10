@@ -1,0 +1,33 @@
+
+ Instructions from professor
+
+ Suppose that you work in the Advising Team for a large Portuguese school system, and your
+school director has asked you to analyze student data and attempt to create a machine learning
+model to predict a student’s performance based on select features. Your director hopes to use
+this information to identify students who might need additional assistance and interventions to
+improve their grade in the course.
+
+
+ Am supposed to complete an end-to-end machine learning project similar to the California Housing Prices example ( am sure you have such a project on your database.), apply some data preparation steps, etc.
+
+
+The dataset contains student performance data from two Portuguese schools and was originally collected from various school reports
+
+Code should be well comemented and easily readable by someone with a limited machine
+learning background. Make sure that your notebook is well organized, includes easy to
+understand markdown comments throughout the notebook, along with good comments in your
+code for your teammates to be able to revise your analysis for other school classes in the future.
+
+choose a regression or classification task making sure that the data preparation,
+machine learning algorithms, and metrics make sense for your type of task.
+
+G3 will be your target column but please read through the following note from UC Irvine’s
+website: “Important note: the target attribute G3 has a strong correlation with attributes
+G2 and G1. This occurs because G3 is the final year grade (issued at the 3rd period),
+while G1 and G2 correspond to the 1st and 2nd period grades. It is more difficult to
+predict G3 without G2 and G1, but such prediction is much more useful.”
+You can choose to perform a regression task or classification task:
+○ Regression task: predict the numeric final G3 grade
+○ Classification task: predict whether a student failed the course or not based on
+their final G3 grade. According to this website, the Portugal grading system
+corresponds with the following US grading scale:
